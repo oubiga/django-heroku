@@ -1,1 +1,1 @@
-web: gunicorn {{ cookiecutter.repo_name }}.wsgi:application --preload
+web: gunicorn {{ cookiecutter.project_slug }}.wsgi:application --preload
