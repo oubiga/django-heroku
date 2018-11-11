@@ -1,0 +1,17 @@
+{
+  "project_name": "My Awesome Project",
+  "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_') }}",
+  "description": "Behold My Awesome Project!",
+  "author_name": "Pablo Oubiña",
+  "domain_name": "example.com",
+  "email": "{{ cookiecutter.author_name.lower()|replace(' ', '-') }}@example.com",
+  "year": "2018",
+  "timezone": "UTC",
+  "version": "0.1.0",
+  "python_version": "3.6.7",
+  "django_secret_key": "ab!bpv+(hme3z23tah)phi*ah570w5puzksh8@9+()l-l=k&#i",
+  "database_url": "postgres://USER:PASSWORD@HOST:PORT/NAME",
+  "aws_access_key": "",
+  "aws_secret_key": "",
+  "aws_bucket_name": "whatever",
+}
