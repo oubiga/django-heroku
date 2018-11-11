@@ -53,7 +53,10 @@ INTERNAL_IPS = ['127.0.0.1', '10.0.2.2', '0.0.0.0']
 # django-extensions
 # ------------------------------------------------------------------------------
 # https://django-extensions.readthedocs.io/en/latest/installation_instructions.html#configuration
-INSTALLED_APPS += ['django_extensions']  # noqa F405
+INSTALLED_APPS += [
+    'django_extensions',
+    'reversion',
+]
 
 # Your stuff...
 # ------------------------------------------------------------------------------
