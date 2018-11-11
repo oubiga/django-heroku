@@ -13,5 +13,5 @@
   "database_url": "postgres://USER:PASSWORD@HOST:PORT/NAME",
   "aws_access_key": "",
   "aws_secret_key": "",
-  "aws_bucket_name": "whatever",
+  "aws_bucket_name": "whatever"
 }
