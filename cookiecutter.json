@@ -11,7 +11,11 @@
   "python_version": "3.6.7",
   "django_secret_key": "ab!bpv+(hme3z23tah)phi*ah570w5puzksh8@9+()l-l=k&#i",
   "database_url": "postgres://USER:PASSWORD@HOST:PORT/NAME",
-  "aws_access_key": "",
-  "aws_secret_key": "",
-  "aws_bucket_name": "whatever"
+  "aws_access_key_id": "",
+  "aws_secret_access_key": "",
+  "aws_bucket_name": "whatever", 
+  "django_mailgun_api_key": "",
+  "django_mailgun_domain": "example.com"
 }
+
+

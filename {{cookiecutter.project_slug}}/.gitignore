@@ -82,7 +82,8 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
-.env
+# I want to create the .env file with cookiecutter
+# .env
 .venv
 env/
 venv/
